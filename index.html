@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231 - Elisha Sunday</title>
-</head>
-<body>
-    
-</body>
+    <meta
+      name="description"
+      content="WDD 231 - Dynamic Web Fundamentals, taught by Elisha Sunday, explores 
+      the fundamentals of HTML, CSS, and JavaScript. Gain skills to design dynamic 
+      and responsive websites in this foundational web development course."
+    >
+    <meta name="author" content="Elisha Sunday">
+    <title>WDD 231 - Dynamic Web Fundamentals - Elisha Sunday</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+   
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <header>
+          <div class="heading">
+          <div>
+            <img src="images/man.avif" alt="Elisha Sunday">
+            <h1>
+               Elisha L. Sunday
+            </h1>
+          </div>
+          <i id="list" class="fa-solid fa-list"></i>
+          </div>
+          <div class="nav-container">
+            <nav>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Charmber</a></li>
+                <li><a href="#">GitHub Profile</a></li>
+                <li>
+                  <a href="https://linkedin.com/in/elisha-sunday-aa2589321"
+                    >LinkedIn</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+
+
+
+        </header>
+      </div>
+      <div class="main-container">
+        <main>
+          <div class="about-section-container">
+            <section>
+              <div class="card">
+                <div class="card-h2"><h2>Course Work</h2>
+                </div>
+                <br>
+                <div class="abt-txt">
+                  <div class="div1">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                  </div>
+                
+                </div>
+              </div>
+            </section>
+            <section>
+              <div class="links-card">
+                <div class="card-h2">
+                  <h2>AkwaIbom, Nigeria</h2>
+                  <img  src="images/boabab trees.jpg" alt="Boabab Trees"> <br> <br>
+                  <p class="boabab-tree" >Boabab Trees</p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- computer programming start here -->
+
+          <div class="web-computer-certificate-container">
+            <section>
+              <div class="web-comp-card">
+                <div>
+                  <h1>Web and Computer Programming Certificate</h1>
+                </div>
+                <div class="All-CSE-WDD">
+                  <button class="class-category">All</button>
+                  <button class="class-category">CSE</button>
+                  <button class="class-category">WDD</button>
+              </div>
+              <div class="courses"></div>
+              <p id="totalCredits"></p>
+          </div>
+               <div class="courses">
+                  <div>CSE 110</div>
+                  <div>WDD 130</div>
+                  <div>CSE 111</div>
+                  <div class="courses-selected">CSE 120</div>
+                  <div>WDD 131</div>
+                  <div class="courses-selected">WDD 231</div>
+                </div> 
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+      <div class="footer-container">
+        <footer>
+          <div class="footer-p-container">
+            <p id="year"></p>
+            <p id="lastModified"></p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="scripts/getdates.js" defer></script>
+  </body>
 </html>
