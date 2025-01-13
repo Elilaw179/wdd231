@@ -143,10 +143,10 @@ margin: auto;
 margin-top: 2rem;
 }
 
-.web-comp-card div h1 {
+.web-comp-card div h2 {
 background-color: #00274d;
+height: 3rem;
 color: white;
-height:100%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -154,8 +154,7 @@ border-top-left-radius: 1rem;
 border-top-right-radius: 1rem;
 
 }
-
-.All-CSE-WDD {
+.all-cse-wdd{
 display: flex;
 justify-content: space-between;
 padding-top: 1rem;
@@ -298,8 +297,6 @@ footer p {
     padding: 10px;
   }
 
- 
-
   .web-comp-card {
     width: 100%;
     
@@ -310,7 +307,7 @@ footer p {
     height: 3rem;
   }
 
-  .All-CSE-WDD {
+  .all-cse-wdd {
     width: 100%;
     padding-left: 2rem;
     padding-right:2rem;
@@ -324,7 +321,7 @@ footer p {
   }
 }
 @media (max-width: 600px){
-  .All-CSE-WDD {
+  .all-cse-wdd {
     gap: 1rem;
   }
 
