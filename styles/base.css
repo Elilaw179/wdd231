@@ -2,15 +2,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Roboto", serif;
+
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
-body {
-  z-index: 0;
-}
 header {
   background-color: #00274d;
-  height: 6rem;
+  height: 7rem;
 
 }
 .heading  {
@@ -33,18 +36,11 @@ display: none;
   align-items: center;
   width: 60%;
   margin: auto;
-  margin-top: -0.3rem;
+  margin-top: 1px;
 }
 header img {
  width: 8rem;
  height: 4.5rem;
-}
-
-.icon{
-width: 1rem;
-color: white;
-
-
 }
 
 nav.visible {
@@ -59,7 +55,7 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   height: 2.5rem;
-  margin-top: 1rem;
+;
 }
 nav ul li {
   list-style: none;
@@ -107,7 +103,7 @@ main {
   margin-left: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
 }
 .links-card {
   grid-column: 1;
@@ -150,8 +146,8 @@ color: white;
 display: flex;
 justify-content: center;
 align-items: center;
-border-top-left-radius: 1rem;
-border-top-right-radius: 1rem;
+border-top-left-radius: 0.5rem;
+border-top-right-radius: 0.5rem;
 
 }
 .all-cse-wdd{
@@ -241,7 +237,8 @@ footer p {
     font-size: 1.5rem;
   }
  .fa-solid{
-      display: contents;
+       display: contents; 
+     
       padding: 40px;
     }
   .heading div{
@@ -317,7 +314,7 @@ footer p {
     
   }
   .courses div{
-    margin-top: 1rem
+    margin-top: 1rem;
   }
 }
 @media (max-width: 600px){
