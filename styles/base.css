@@ -4,27 +4,24 @@
   box-sizing: border-box;
   font-family: "Roboto", serif;
 }
-
 header {
   background-color: #00274d;
   height: 7rem;
-
 }
-.heading  {
+.heading {
   display: flex;
   align-items: center;
   padding: 15px;
 }
-.heading h1{
+.heading h1 {
   color: #ffffff;
 }
-.fa-solid{
-color: white; 
-font-size: 2rem;
-display: none;
+.fa-solid {
+  color: white;
+  font-size: 2rem;
+  display: none;
 }
-
-.heading div{
+.heading div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,23 +30,19 @@ display: none;
   margin-top: 1px;
 }
 header img {
- width: 8rem;
- height: 4.5rem;
+  width: 8rem;
+  height: 4.5rem;
 }
-
 nav.visible {
-display: block;
-padding: 40px;
+  display: block;
+  padding: 40px;
 }
-
-
 nav ul {
   background-color: #000000;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 2.5rem;
-;
 }
 nav ul li {
   list-style: none;
@@ -65,10 +58,9 @@ nav ul li a:hover {
 .main-container {
   margin-top: 3rem;
 }
-
 .card {
   grid-column: 1;
-  border: 1px solid  rgb(189, 189, 189) ;
+  border: 1px solid rgb(189, 189, 189);
   width: 40rem;
   height: 35rem;
   border-radius: 15px;
@@ -83,16 +75,15 @@ nav ul li a:hover {
   color: #ffffff;
 }
 main {
-  max-width: 1450px; 
-  margin: 0 auto;    
-  padding: 20px;     
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.div1{
+.div1 {
   display: flex;
   padding: 5px;
   height: 8rem;
 }
-
 .div1 ul {
   margin-left: 2rem;
   display: flex;
@@ -101,7 +92,7 @@ main {
 }
 .links-card {
   grid-column: 1;
-  border: 1px solid  rgb(189, 189, 189);
+  border: 1px solid rgb(189, 189, 189);
   width: 25rem;
   height: 35rem;
   border-radius: 15px;
@@ -115,96 +106,70 @@ main {
   width: 75%;
   margin: auto;
 }
-.card-h2 img{
+.card-h2 img {
   width: 22rem;
   height: 25rem;
   margin-top: 3rem;
 }
-
-.boabab-tree{
+.boabab-tree {
   color: grey;
 }
-
-
-.web-comp-card{
-width: 75%;
-height: 100%;
-margin: auto;
-margin-top: 2rem;
+.web-comp-card {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  margin-top: 2rem;
 }
-
 .web-comp-card div h2 {
-background-color: #00274d;
-height: 3rem;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-border-top-left-radius: 0.5rem;
-border-top-right-radius: 0.5rem;
-
+  background-color: #00274d;
+  height: 3rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
-.all-cse-wdd{
-display: flex;
-justify-content: space-between;
-padding-top: 1rem;
-width: 50%;
-margin: auto;
+.all-cse-wdd {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  width: 50%;
+  margin: auto;
 }
-
 .class-category {
-background-color: black;
-color: white;
-font-weight: bold;
-height: 2rem;
-width: 10rem;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 0.3rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  height: 2rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
 }
-
 .courses {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 2rem;
-margin-left: 2rem;
-margin-right: 2rem;
-margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
 }
 
 .courses div {
-background-color: rgb(107, 55, 31);
-color: white;
-height: 3rem;
-display: flex;
-justify-content: center;
-align-items: center;
-font-weight: bold;
-border-radius: 0.3rem;
+  background-color: rgb(107, 55, 31);
+  color: white;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 0.3rem;
 }
-
 .courses-selected {
-background-color: rgb(128, 126, 126) !important;
+  background-color: rgb(128, 126, 126) !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer-container {
   background-color: #00274d;
@@ -225,34 +190,29 @@ footer p {
 .lastmodified {
   color: gold;
 }
-
-@media(max-width: 768px){
- h1 {
+@media (max-width: 768px) {
+  h1 {
     font-size: 1.5rem;
   }
- .fa-solid{
-       display: contents; 
-     
-      padding: 40px;
-    }
-  .heading div{
+  .fa-solid {
+    display: contents;
+    padding: 40px;
+  }
+  .heading div {
     width: 80%;
   }
-
-
   nav {
     display: none;
-    }
-    
+  }
+
   .about-section-container {
     width: 100%;
     display: block;
     margin-top: -3rem;
   }
 
- 
   .card {
-    width:100%;
+    width: 100%;
     height: 15rem;
   }
 
@@ -269,52 +229,43 @@ footer p {
     height: 100vh;
     display: block;
     background-color: #fff;
-    position:absolute;
+    position: absolute;
     left: 0;
     top: -15px;
     width: 80%;
     gap: 1rem;
   }
-
-  nav ul li a{
+  nav ul li a {
     color: #000000;
     font-weight: bold;
   }
-  nav ul li{
+  nav ul li {
     height: 2rem;
     display: flex;
     align-items: center;
     padding: 20px;
-    
-    
   }
-
   .web-comp-card {
     width: 100%;
-    
   }
-
   .web-comp-card div h1 {
     text-align: center;
     height: 3rem;
   }
-
   .all-cse-wdd {
     width: 100%;
     padding-left: 2rem;
-    padding-right:2rem;
+    padding-right: 2rem;
   }
   .courses {
     display: block;
-    
   }
-  .courses div{
+  .courses div {
     margin-top: 1rem;
   }
 }
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .all-cse-wdd {
     gap: 1rem;
   }
-
 }
