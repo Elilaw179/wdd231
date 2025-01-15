@@ -3,12 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", serif;
-
-  font-family: "Roboto", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 header {
@@ -288,10 +282,11 @@ footer p {
   }
   nav ul li{
     height: 2rem;
-    gap: -1px;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+    
+    
   }
 
   .web-comp-card {
