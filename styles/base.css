@@ -16,6 +16,13 @@ header {
 .heading h1 {
   color: #ffffff;
 }
+
+.fa-rotate-by {
+  transform: rotate(0deg) !important; /* Provide a valid default fallback */
+}
+
+
+
 .fa-solid {
   color: white;
   font-size: 2rem;
@@ -248,9 +255,9 @@ footer p {
   .web-comp-card {
     width: 100%;
   }
-  .web-comp-card div h1 {
+  .web-comp-card div h2 {
     text-align: center;
-    height: 3rem;
+    height: 5rem;
   }
   .all-cse-wdd {
     width: 100%;
