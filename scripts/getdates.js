@@ -1,4 +1,5 @@
 
+
 //The slide bar elements 
 const menuIcon = document.getElementById("list");
 const nav = document.querySelector("nav");
@@ -8,7 +9,7 @@ menuIcon.addEventListener("click", () => {
 });
 
 
-//Course array
+//Courses  array
 
 const courses = [
   {
