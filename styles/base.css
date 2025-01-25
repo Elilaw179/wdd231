@@ -16,7 +16,11 @@ header {
 .heading h1 {
   color: #ffffff;
 }
-
+.heading button{
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
 .fa-solid {
   color: white;
   font-size: 2rem;
@@ -43,7 +47,6 @@ nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 2.5rem;
 }
 nav ul li {
   list-style: none;
@@ -174,7 +177,7 @@ main {
 
 .footer-container {
   background-color: #00274d;
-  height: 5rem;
+  height: 7rem;
   margin-top: 1rem;
 }
 footer p {

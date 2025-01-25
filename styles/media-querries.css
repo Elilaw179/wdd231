@@ -36,7 +36,7 @@
     }
   
     nav ul {
-      height: 100vh;
+      height: 50vh;
       display: block;
       background-color: #fff;
       position: absolute;
@@ -44,6 +44,7 @@
       top: -15px;
       width: 80%;
       gap: 1rem;
+      padding: .75rem 2vw;
     }
     nav ul li a {
       color: #000000;

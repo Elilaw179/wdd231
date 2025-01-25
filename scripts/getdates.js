@@ -1,13 +1,10 @@
-
-
-//The slide bar elements 
+//The slide bar elements
 const menuIcon = document.getElementById("list");
 const nav = document.querySelector("nav");
 
 menuIcon.addEventListener("click", () => {
   nav.classList.toggle("visible");
 });
-
 
 //Courses  array
 
@@ -80,17 +77,13 @@ const courses = [
   },
 ];
 
-
-
-
 //  necessary DOM elements
 const courseContainer = document.querySelector(".courses");
 const filterButtons = document.querySelectorAll(".class-category");
 
 // Function to display courses dynamically
 function displayCourses(courseList) {
-  
-    // Clear current courses
+  // Clear current courses
   courseContainer.innerHTML = "";
 
   // Populate courses based on the array
@@ -131,8 +124,6 @@ filterButtons.forEach((button) => {
 });
 
 displayCourses(courses);
-
-
 
 //footer date update
 
