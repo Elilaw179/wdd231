@@ -3,125 +3,13 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-
 }
 
-.nav-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
-nav a{
-  color: #fff;
-  padding: 10px;
-  margin-top: 1rem;
-  text-decoration: none;
- 
-}
-
-nav a:hover{
-  color:  #FFD700;
-}
-
-.menu{
-  display: none;
-}
-
-.cir-icon i{
-margin-top: 1rem;
-}
-
-.anchor-div{
-  display: flex;
-  justify-content: space-between;  
-}
-.logo{
-  height: 5rem;
-  display: flex;
-  align-items: center;
-}
-.logo img{
-  width: 4rem;
-}
-.logo div p {
-  height: 2rem;
-  text-align: start;
-  color: white;
-  font-size: 25px;
-}
-
-.logo-txt{
-  font-size: 12px !important;
-  margin-top: -28px;
-}
-
-nav{
-  display: flex;
-  justify-content: space-between;
-}
-.anchor-div button{
-  background-color: inherit;
-  color: #fff;
-  border: none;
-}
-.anchor-div button i{
-  font-size: 20px ;
-}
 header {
   text-align: center;
   background-color: #00274d;
   color: #fff;
   width: 100%;
-}
-section{
-  width: 90%;
-  margin: auto;
-}
-section img{
-  width: 100%;
-  height: 35rem;
-}
-
-.event-container{
-  width: 90%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 1rem;
-}
-
-.events,.c-weather,.f-weather{
-  height: 23rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-.events h4, .c-weather h4,.f-weather h4{
-  background-color:black !important;
-  color: #fff;
-  padding: 5px;
-}
-
-.c-weather-div{
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: -1.5rem;
-}
-
-.c-weather-div img{
-  width: 7rem;
-  height: 7rem;
-  margin-top: 2rem;
-}
-.c-weather-p p, .f-weather p{
-  font-size: 16px;
-}
-main {
-  width: 90%;
-  margin: auto;
 }
 
 footer {
@@ -129,34 +17,133 @@ footer {
   padding: 1rem;
   margin-top: 1rem;
   border-radius: 5px;
-  background-color:#00274d !important
+  background-color: #00274d !important;
 }
 
-#year{
+#year {
   color: grey;
 }
-#memberDirectory.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem !important;
+
+main, section {
   width: 90%;
   margin: auto;
 }
 
-.member-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+/* Navigation */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 6rem;
 }
 
-.member-card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+nav {
+  display: flex;
+  justify-content: space-between;
 }
+
+nav a {
+  color: #fff;
+  padding: 10px;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FFD700;
+}
+
+.menu {
+  display: none;
+}
+
+/* Logo Section */
+.logo {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 4rem;
+}
+
+.logo div p {
+  height: 2rem;
+  text-align: start;
+  color: white;
+  font-size: 25px;
+}
+
+.logo-txt {
+  font-size: 12px !important;
+  margin-top: -28px;
+}
+
+/* Buttons and Icons */
+.anchor-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.anchor-div button {
+  background-color: inherit;
+  color: #fff;
+  border: none;
+}
+
+.anchor-div button i {
+  font-size: 20px;
+}
+
+.cir-icon i {
+  margin-top: 1rem;
+}
+
+/* Images and Event Section */
+section img {
+  width: 100%;
+  height: 35rem;
+}
+
+.event-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.events, .c-weather, .f-weather {
+  height: 23rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.events h4, .c-weather h4, .f-weather h4 {
+  background-color: black !important;
+  color: #fff;
+  padding: 5px;
+}
+
+.c-weather-div {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: -1.5rem;
+}
+
+.c-weather-div img {
+  width: 7rem;
+  height: 7rem;
+  margin-top: 2rem;
+}
+
+.c-weather-p p, .f-weather p {
+  font-size: 16px;
+}
+
+/* Footer Section */
 .footer-container {
   height: 12rem;
   display: flex;
@@ -168,7 +155,7 @@ footer {
   color: #fff;
 }
 
-.first {
+.first, .third {
   height: 70%;
   flex: 1;
   justify-items: start;
@@ -180,7 +167,7 @@ footer {
   font-weight: bolder;
 }
 
-.first p {
+.first p, .third p {
   font-size: 13px;
 }
 
@@ -202,22 +189,57 @@ footer {
   margin-top: 20px;
 }
 
-.second .img img {
+.second .img img, .img img {
   height: 40px;
   width: 50px;
-}
-
-.img img{
   border-radius: 25px;
 }
 
-.third {
-  height: 70%;
-  flex: 1;
-  justify-items: start;
-  padding: 0 5px;
+/* Member Directory */
+#memberDirectory.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem !important;
+  width: 90%;
+  margin: auto;
 }
 
-.third p {
-  font-size: 13px;
+#memberDirectory.list {
+  display: block;
+}
+
+#memberDirectory.list .member-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+#memberDirectory.list .member-card img {
+  max-width: 150px;
+  height: auto;
+}
+
+.member-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.member-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Toggle Button */
+#toggleView {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: gold;
+  color: #00274d;
+  border: none;
+  cursor: pointer;
 }
