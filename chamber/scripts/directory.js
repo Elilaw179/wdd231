@@ -1,14 +1,16 @@
-
-
-// Fetch member data and render
+// Fetch and display all members
 async function fetchMembers() {
   try {
     const response = await fetch('data/members.json'); // Fetch JSON data
     if (!response.ok) throw new Error("Failed to fetch member data");
-    const members = await response.json();
-    renderMembers(members);
+
+    const members = await response.json(); // Get all members from JSON
+    
+    renderMembers(members); // Display ALL members on the page
+
   } catch (error) {
     console.error("Error fetching members:", error);
+    document.getElementById('memberDirectory').innerHTML = '<p>Failed to load member data.</p>';
   }
 }
 
@@ -37,7 +39,7 @@ function renderMembers(members) {
 
 // Get membership level name
 function getMembershipLevel(level) {
-  return level === 3 ? 'Gold' : level === 2 ? 'Silver' : 'Member';
+  return level === 3 ? 'Gold' : level === 2 ? 'Silver' : 'Bronze';
 }
 
 // Toggle grid/list view
@@ -62,5 +64,3 @@ function updateFooter() {
 // Initialize functions
 fetchMembers();
 updateFooter();
-
-  

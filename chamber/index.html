@@ -10,7 +10,7 @@
       and responsive websites in this foundational web development course."
     >
         <meta name="author" content="Elisha Sunday">
-        <title>WDD 231 The Chamber of Commerce Site Plan - Elisha Sunday</title>
+        <title>The Chamber of Commerce Site Plan - Elisha Sunday</title>
         <link rel="stylesheet" href="styles/directory.css">
         <link rel="stylesheet" href="styles/base.css">
         <link rel="stylesheet" href="styles/directory-media.css">
@@ -29,14 +29,16 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
       </head>
         <body>
+
+
           <header>
            <div class="nav-container">
-            <button id="toggleView">Toggle View</button>
             <div class="logo">
               <img src="images/nigeria.jpg" alt="logo">
               <div><p class="comp-name">Timbuktu</p>
                 <p class="logo-txt">Chamber of Commerce</p></div>
             </div>
+             <button id="toggleView">Toggle View</button>
             <div class="anchor-div">
             <nav>
               <a href="">Home</a>
@@ -53,11 +55,23 @@
 
             <h2>Home</h2>
             <img src="images/government.avif" alt="Nigeria">
+            <div class="hero-text">
+              <h1>Welcome to Chamber Of Commerce</h1>
+              <p>Building a stronger community together.</p>
+              <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
            </section>
+<!-- main starts from here -->
           <main >
             <div class="event-container">
               <div class="events">
                 <h4>Events</h4>
+
+                <ul>
+                  <li><strong>Business Expo:</strong> February 15, 2025</li>
+                  <li><strong>Community Cleanup:</strong> March 1, 2025</li>
+                  <li><strong>Annual Gala:</strong> April 10, 2025</li>
+                </ul>
               </div>
               <div class="c-weather">
                 <h4>Current Weather</h4>
@@ -84,9 +98,11 @@
             <div id="memberDirectory" class="grid">
             </div>
           </main>
+<!-- footer begins here -->
           <footer>
             <p id="year"></p>
-           
+           <p>
+       OpenWeatherMap.org | CC BY-SA 4.0</p>
             <div class="footer-container">
               <div class="first">
                 <h1>Timbuktu Chamber of Commerce</h1>
@@ -114,6 +130,7 @@
               </div>
             </div>
           </footer>
-          <script src="scripts/directory.js" defer></script>
+         <script src="scripts/weather.js" aria-modal="t"></script>
+          <script src="scripts/second-directory.js" defer></script>
   </body>
 </html>
