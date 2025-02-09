@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="WDD 231 -Web Frontend Development I, taught by Elisha Sunday, explores 
+      the fundamentals of HTML, CSS, and JavaScript. Gain skills to design dynamic 
+      and responsive websites in this foundational web development course."
+    >
+        <meta name="author" content="Elisha Sunday">
+        <title>The Chamber of Commerce Site Plan - Elisha Sunday</title>
+        <link rel="stylesheet" href="styles/join.css">
+        <link rel="stylesheet" href="styles/directory.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/directory-media.css">
+        <!-- Open Graph meta tags -->
+        <meta property="og:title" content="WDD 231- Web Development I- Elisha Sunday">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.lagoschamber.com/images/Ease.jpg" >
+        <meta property="og:url" content="https://www.lagoschamber.com/" >
+
+        <meta property="og:description" content="Akwa Ibom State is a state in the South-South geopolitical zone of Nigeria.">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+       
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      </head>
+        <body>
+          <header>
+           <div class="nav-container">
+            <div class="logo">
+              <img src="images/nigeria.jpg" alt="logo">
+              <div><p class="comp-name">Timbuktu</p>
+                <p class="logo-txt">Chamber of Commerce</p></div>
+            </div>
+             <button id="toggleView">Toggle View</button>
+            <div class="anchor-div">
+            <nav>
+              <a href="index.html">Home</a>
+              <a href="directory.html">Directory</a>
+              <a href="join.html">Join</a>
+              <a href="#">Discover</a>
+            </nav>
+            <button class="cir-icon"><i class="fa-solid fa-circle-half-stroke"></i></button>
+            <button class="menu"><i class="fa-solid fa-list"></i></button>
+          </div>
+           </div>
+          </header>
+
+          <main>
+            <div class="form-container">
+                <h2>Membership Application</h2>
+                <form action="thankyou.html" method="get">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" autocomplete="given-name" required>
+    
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" autocomplete="family-name" required>
+    
+                    <label for="org-title">Organizational Title:</label>
+                    <input type="text" id="org-title" name="org-title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="example@company.com" required>
+    
+                    <label for="phone">Mobile Phone:</label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+    
+                    <label for="business-name">Business/Organization Name:</label>
+                    <input type="text" id="business-name" name="business-name" autocomplete="organization" required>
+    
+                    <label for="membership">Select Membership Level:</label>
+                    <select id="membership" name="membership">
+                        <option value="np">NP Membership (Free for Non-Profits)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+    
+                    <label for="description">Business/Organization Description:</label>
+                    <textarea id="description" name="description" rows="4"></textarea>
+    
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+    
+                    <button type="submit">Apply Now</button>
+                </form>
+            </div>
+    
+            <!-- Membership Level Cards -->
+            <section class="membership-cards">
+                <div class="card" onclick="showModal('np-modal')">
+                    <h3>NP Membership</h3>
+                    <p>Free for Non-Profit Organizations</p>
+                    <button>View Benefits</button>
+                </div>
+    
+                <div class="card" onclick="showModal('bronze-modal')">
+                    <h3>Bronze Membership</h3>
+                    <p>Basic Business Plan</p>
+                    <button>View Benefits</button>
+                </div>
+    
+                <div class="card" onclick="showModal('silver-modal')">
+                    <h3>Silver Membership</h3>
+                    <p>Premium Advertising & Events</p>
+                    <button>View Benefits</button>
+                </div>
+    
+                <div class="card" onclick="showModal('gold-modal')">
+                    <h3>Gold Membership</h3>
+                    <p>Exclusive Access & Networking</p>
+                    <button>View Benefits</button>
+                </div>
+            </section>
+    
+            <!-- Modals for Membership Benefits -->
+            <div id="np-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('np-modal')">&times;</span>
+                    <h2>NP Membership Benefits</h2>
+                    <p>Free access to networking events and training.</p>
+                </div>
+            </div>
+    
+            <div id="bronze-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('bronze-modal')">&times;</span>
+                    <h2>Bronze Membership Benefits</h2>
+                    <p>Basic plan includes training sessions and limited advertising.</p>
+                </div>
+            </div>
+    
+            <div id="silver-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('silver-modal')">&times;</span>
+                    <h2>Silver Membership Benefits</h2>
+                    <p>More advertising opportunities and event discounts.</p>
+                </div>
+            </div>
+    
+            <div id="gold-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('gold-modal')">&times;</span>
+                    <h2>Gold Membership Benefits</h2>
+                    <p>Premium benefits, priority advertising, and exclusive events.</p>
+                </div>
+            </div>
+        </main>
+          <footer>
+            <p id="year"></p>
+           <p>
+       OpenWeatherMap.org | CC BY-SA 4.0</p>
+            <div class="footer-container">
+              <div class="first">
+                <h1>Timbuktu Chamber of Commerce</h1>
+                <p>10 Rue De La Paix</p>
+                <p>Timbuktu, Mail 999</p>
+                <p>info@timbuktucc.org</p>
+                <p>(223) 555-2300</p>
+              </div>
+              <div class="second">
+                <div class="img">
+                  <img src="images/video.png" alt="">
+                </div>
+                <div class="img">
+                  <img src="images/twit.avif" alt="">
+                </div>
+                <div class="img">
+                  <img src="images/linkdn.avif" alt="">
+                </div>
+              </div>
+              <div class="third">
+                <p>wdd231 class project</p>
+                <p>Marie Martinez</p>
+                <p># 20xx Timbuktu Chamber of Commerce</p>
+                <p id="lastModified"></p>
+              </div>
+            </div>
+          </footer>
+          <script src="scripts/join.js" defer></script>
+         <script src="scripts/weather.js" defer></script>
+          <script src="scripts/second-directory.js" defer></script>
+  </body>
+</html>

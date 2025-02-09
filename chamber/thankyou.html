@@ -11,6 +11,7 @@
     >
         <meta name="author" content="Elisha Sunday">
         <title>The Chamber of Commerce Site Plan - Elisha Sunday</title>
+        <link rel="stylesheet" href="styles/join.css">
         <link rel="stylesheet" href="styles/directory.css">
         <link rel="stylesheet" href="styles/base.css">
         <link rel="stylesheet" href="styles/directory-media.css">
@@ -29,8 +30,6 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
       </head>
         <body>
-
-
           <header>
            <div class="nav-container">
             <div class="logo">
@@ -44,64 +43,22 @@
               <a href="index.html">Home</a>
               <a href="directory.html">Directory</a>
               <a href="join.html">Join</a>
-              <a href="directory.html">Discover</a>
+              <a href="#">Discover</a>
             </nav>
             <button class="cir-icon"><i class="fa-solid fa-circle-half-stroke"></i></button>
             <button class="menu"><i class="fa-solid fa-list"></i></button>
           </div>
            </div>
           </header>
-          <section >
-            
-            <img src="images/government.avif" alt="Nigeria">
-            <div class="hero-text">
-              <h2>Welcome to Chamber Of Commerce</h2>
-              <p>Building a stronger community together.</p>
-              <a href="join.html" class="cta-button">Join the Chamber</a>
+          <main>
+            <div class="confirmation-container">
+                <h2>Submitted Information</h2>
+                <div id="form-data"></div>
+                <a href="index.html" class="btn-home">Return to Homepage</a>
             </div>
-           </section>
-<!-- main starts from here -->
-          <main >
-            <div class="event-container">
-              <div class="events">
-                <h4>Events</h4>
-
-                <ul>
-                  <li><strong>Business Expo:</strong> February 15, 2025</li>
-                  <li><strong>Community Cleanup:</strong> March 1, 2025</li>
-                  <li><strong>Annual Gala:</strong> April 10, 2025</li>
-                </ul>
-              </div>
-              <div class="c-weather">
-                <h4>Current Weather</h4>
-                <div class="c-weather-div">
-                  <img src="images/weath.webp" alt="weather">
-                  <div class="c-weather-p">
-                    <p>75 F</p>
-                    <p>Party Cloudy</p>
-                    <p>High: 85%</p>
-                    <p>Low: 52%</p>
-                    <p>Humidity: 34%</p>
-                    <p>Sunrise: 7:30am</p>
-                    <p>Sunset:9:59pm</p>
-                  </div>
-                </div>
-              </div>
-              <div class="f-weather">
-              <h4>Weather Forecast</h4>
-              <p>Today: 90F</p>
-              <p>Wednesday: 89F</p>
-              <p>Thursday: 68F</p>
-              </div>
-            </div>
-            <div id="memberDirectory" class="grid">
-            </div>
-          </main>
-<!-- footer begins here -->
+        </main>
           <footer>
             <p id="year"></p>
-           <p>
-       OpenWeatherMap.org | CC BY-SA 4.0</p>
             <div class="footer-container">
               <div class="first">
                 <h1>Timbuktu Chamber of Commerce</h1>
@@ -129,7 +86,8 @@
               </div>
             </div>
           </footer>
-         <script src="scripts/weather.js"></script>
+          <script src="scripts/join.js" defer></script>
+         <script src="scripts/weather.js" defer></script>
           <script src="scripts/second-directory.js" defer></script>
   </body>
 </html>
