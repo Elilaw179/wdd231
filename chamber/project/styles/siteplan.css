@@ -1,0 +1,29 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E3A5F;
+}
+
+h2 {
+    border-bottom: 2px solid #F4A261;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+}
+.wireframe{
+    width: 70%;
+    margin: auto;
+}
+.wireframe img{
+width: 100%;
+margin: auto;
+}
