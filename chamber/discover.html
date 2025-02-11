@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="WDD 231 -Web Frontend Development I, taught by Elisha Sunday, explores 
+      the fundamentals of HTML, CSS, and JavaScript. Gain skills to design dynamic 
+      and responsive websites in this foundational web development course."
+    >
+        <meta name="author" content="Elisha Sunday">
+        <title>The Chamber of Commerce Site Plan - Elisha Sunday</title>
+        <link rel="stylesheet" href="styles/discover.css">
+        <link rel="stylesheet" href="styles/directory.css">
+        <link rel="stylesheet" href="styles/directory-media.css">
+        <!-- Open Graph meta tags -->
+        <meta property="og:title" content="WDD 231- Web Development I- Elisha Sunday">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.lagoschamber.com/images/Ease.jpg" >
+        <meta property="og:url" content="https://www.lagoschamber.com/" >
+        <meta property="og:description" content="Akwa Ibom State is a state in the South-South geopolitical zone of Nigeria.">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      </head>
+        <body>
+
+          <header>
+           <div class="nav-container">
+            <div class="logo">
+              <img src="images/nigeria.jpg" alt="logo">
+              <div><p class="comp-name">Timbuktu</p>
+                <p class="logo-txt">Chamber of Commerce</p></div>
+            </div>
+             <button id="toggleView">Toggle View</button>
+            <div class="anchor-div">
+            <nav>
+              <a href="index.html">Home</a>
+              <a href="directory.html">Directory</a>
+              <a href="join.html">Join</a>
+              <a href="discover.html">Discover</a>
+            </nav>
+            <button class="cir-icon"><i class="fa-solid fa-circle-half-stroke"></i></button>
+            <button class="menu"><i class="fa-solid fa-list"></i></button>
+          </div>
+           </div>
+          </header>
+<!-- main starts from here -->     
+<main>
+    <aside class="sidebar">
+        <h2>Visitor Info</h2>
+        <p id="visitMessage"></p>
+    </aside>
+
+    <h1>Discover Timbuktu</h1>
+    <p class="intro">Explore the beauty and attractions of Timbuktu. Here are some must-visit places:</p>
+
+    <section class="grid-container">
+        <!-- 1 -->
+        <div class="card">
+            <h2>Djinguereber Mosque</h2>
+            <figure>
+                <img src="images/mosque.webp" alt="Djinguereber Mosque">
+            </figure>
+            <address>Timbuktu, Mali</address>
+            <p>One of the oldest mosques in Africa, built in 1327.</p>
+            <button>Learn More</button>
+        </div>
+
+        <!-- 2 -->
+        <div class="card">
+            <h2>Sankore University</h2>
+            <figure>
+                <img src="images/sankore.webp" alt="Sankore University">
+            </figure>
+            <address>Timbuktu, Mali</address>
+            <p>One of the three ancient centers of learning in Timbuktu.</p>
+            <button>Learn More</button>
+        </div>
+
+        <!-- 3 -->
+        <div class="card">
+            <h2>Timbuktu Manuscripts</h2>
+            <figure>
+                <img src="images/manuscript.webp" alt="Timbuktu Manuscripts">
+            </figure>
+            <address>Timbuktu Libraries, Mali</address>
+            <p>Ancient texts showcasing African knowledge in science, astronomy, and medicine.</p>
+            <button>Learn More</button>
+        </div>
+
+        <!-- 4 -->
+        <div class="card">
+            <h2>Ahmed Baba Institute</h2>
+            <figure>
+                <img src="images/aham.webp" alt="Ahmed Baba Institute">
+            </figure>
+            <address>Timbuktu, Mali</address>
+            <p>A research center preserving thousands of manuscripts from the 13th century.</p>
+            <button>Learn More</button>
+        </div>
+
+        <!-- 5 -->
+        <div class="card">
+            <h2>Flamme de la Paix</h2>
+            <figure>
+                <img src="images/flamme.webp" alt="Flamme de la Paix">
+            </figure>
+            <address>Timbuktu, Mali</address>
+            <p>A monument symbolizing peace, where over 3,000 firearms were burned in 1996.</p>
+            <button>Learn More</button>
+        </div>
+
+        <!-- 6 -->
+        <div class="card">
+            <h2>Timbuktu Market</h2>
+            <figure>
+                <img src="images/market.webp" alt="Timbuktu Market">
+            </figure>
+            <address>Downtown Timbuktu, Mali</address>
+            <p>A bustling market where you can find local crafts, spices, and traditional Tuareg jewelry.</p>
+            <button>Learn More</button>
+        </div>
+
+        <!-- 7 -->
+        <div class="card">
+            <h2>Lake Faguibine</h2>
+            <figure>
+                <img src="images/faguibine.webp" alt="Lake Faguibine">
+            </figure>
+            <address>Timbuktu Region, Mali</address>
+            <p>Once the largest lake in Mali, providing water and life to the region.</p>
+            <button>Learn More</button>
+        </div>
+
+        <!-- 8 -->
+        <div class="card">
+            <h2>Tuareg Desert Camp</h2>
+            <figure>
+                <img src="images/desert.webp" alt="Tuareg Desert Camp">
+            </figure>
+            <address>Sahara Desert near Timbuktu</address>
+            <p>Experience Tuareg culture, camel rides, and stunning desert landscapes.</p>
+            <button>Learn More</button>
+        </div>
+
+    </section>
+</main>
+
+
+
+<!-- footer begins here -->
+          <footer>
+            <p id="year"></p>
+           <p>
+       OpenWeatherMap.org | CC BY-SA 4.0</p>
+            <div class="footer-container">
+              <div class="first">
+                <h1>Timbuktu Chamber of Commerce</h1>
+                <p>10 Rue De La Paix</p>
+                <p>Timbuktu, Mail 999</p>
+                <p>info@timbuktucc.org</p>
+                <p>(223) 555-2300</p>
+              </div>
+              <div class="second">
+                <div class="img">
+                  <img src="images/video.png" alt="">
+                </div>
+                <div class="img">
+                  <img src="images/twit.avif" alt="">
+                </div>
+                <div class="img">
+                  <img src="images/linkdn.avif" alt="">
+                </div>
+              </div>
+              <div class="third">
+                <p>wdd231 class project</p>
+                <p>Marie Martinez</p>
+                <p># 20xx Timbuktu Chamber of Commerce</p>
+                <p id="lastModified"></p>
+              </div>
+            </div>
+          </footer>
+          <!-- footer ends here -->
+         <script src="scripts/visitTracker.js" defer></script>
+          <script src="scripts/discver.js" defer></script>
+  </body>
+</html>
