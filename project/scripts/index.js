@@ -31,12 +31,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
    
-   
-   
     /* ======== Utility Function to Get Current Page ======== */
     function getCurrentPage() {
         return window.location.pathname.split("/").pop();
     }
+
+
+
+
+/* ======== Fetch Data from Local JSON File ======== */
+/* 
+   This function fetches hiking guide data from a local JSON file (data.json).
+   It uses the Fetch API and asynchronous functions to handle the response. 
+   The JSON file contains an array of objects, each representing a hiking guide 
+   with details like title, description, image, and category.
+
+   Why Use JSON Data?
+   - JSON allows us to easily update content without modifying the HTML.
+   - It provides a centralized way to manage hiking guides and travel tips.
+   - It keeps the HTML clean and separates content from structure.
+*/
+
 
     /* ======== Fetch Data from Local JSON File ======== */
     async function fetchGuidesData() {
@@ -52,6 +67,20 @@ document.addEventListener("DOMContentLoaded", () => {
             return [];
         }
     }
+
+
+
+/* 
+    We are dynamically displaying hiking guides on the Home Page and Guides Page. 
+    - Home Page shows the latest 4 guides as a preview.
+    - Guides Page shows all available hiking guides.
+    
+    Why Display Data Dynamically?
+    - It allows us to update the JSON file without changing the HTML.
+    - It enhances user engagement with up-to-date content.
+    - It showcases how JavaScript can manipulate the DOM for dynamic web experiences.
+*/
+
 
     /* ======== Dynamic Content for Home Page ======== */
     async function loadHomePageContent() {

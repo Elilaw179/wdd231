@@ -1,43 +1,47 @@
-
-
-@media (max-width:500px) {
-
-    #menu-btn{
-      display: block !important;
-    }
-    ul li a{
-      display: block;
-      padding: 10px;
-    }
-  
-  
-    header{
-      font-size: 9px;
-     }
-  
-     h2{
-      font-size: 16px
-     }
-  
-     h3{
-      font-size: 15px;
-     }
-  
-     p{
-      font-size: 12px;
-     }
-  
-     .hero button{
-      font-size: 8px;
-      width: 6rem;
-     }
-  
-     .category{
-      font-size: 12px;
-     }
-    /* ===== Menu Button ===== */
+@media (max-width: 500px) {
   #menu-btn {
-    font-size: 2em;
+    display: block !important;
+  }
+  #menu-btn:hover{
+    color:#f4a261 ;
+  }
+  ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 15px !important ;
+  }
+
+  header {
+    font-size: 9px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .hero button {
+    font-size: 8px;
+    width: 6rem;
+  }
+
+  .category {
+    font-size: 12px;
+  }
+
+  .data-explanation {
+    font-size: 13px;
+  }
+  /* ===== Menu Button ===== */
+  #menu-btn {
+    font-size: 2rem;
     background: none;
     border: none;
     color: white;
@@ -48,11 +52,11 @@
     z-index: 1001;
     transition: transform 0.3s;
   }
-  
+
   #menu-btn:active {
     transform: scale(0.9);
   }
-  
+
   /* ===== Sidebar Styles ===== */
   .sidebar {
     position: fixed;
@@ -67,40 +71,40 @@
     z-index: 1000;
     padding: 20px;
   }
-  
+
   .sidebar ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  
+
   .sidebar ul li {
     margin: 20px 0;
   }
-  
+
   .sidebar ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s;
   }
-  
+
   .sidebar ul li a:hover {
     color: var(--secondary-color);
   }
-  
+
   /* ===== Sidebar Active State ===== */
   .sidebar.active {
     right: 0;
   }
-  
+
   /* ===== Body Overlay for Mobile ===== */
   body.show-sidebar {
     overflow: hidden;
   }
-  
+
   body.show-sidebar::before {
-    content: '';
+    content: "";
     position: fixed;
     top: 0;
     left: 0;
@@ -109,17 +113,10 @@
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
   }
-    
+}
+@media (min-width: 1190px) {
+  #items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
-  @media (min-width: 1190px) {
-    #items-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-  
-  
-  
-  
-  
-  
+}
