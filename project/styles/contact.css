@@ -1,0 +1,110 @@
+
+/*  Contact Page Styles  */
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #F4A261;
+    color: white;
+}
+
+.hero h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    color: #1E3A5F;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+
+/* Contact Form Section */
+.contact-form-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-form-section h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E3A5F;
+    border-bottom: 2px solid #F4A261;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1E3A5F;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #F4A261;
+    box-shadow: 0 0 5px rgba(244, 162, 97, 0.5);
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background: #F4A261;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #e08d50;
+}
+
+
+@media (max-width:500px) {
+    h2{
+        font-size: 15px !important;
+    }
+    
+    .hero p{
+        font-size: 12px;
+    }
+    
+    label{
+        font-size: 12px !important;
+    }
+    
+    button{
+        font-size: 12px !important;
+    }
+    
+}

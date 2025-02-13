@@ -1,0 +1,121 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Yosemite National Park",
+      "description": "Experience breathtaking views on the Mist Trail and Half Dome.",
+      "image": "images/yoh.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 2,
+      "title": "Banff National Park",
+      "description": "Explore the Canadian Rockies with stunning trails and lakes.",
+      "image": "images/ban.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 3,
+      "title": "Appalachian Trail",
+      "description": "Trek the legendary 2,000-mile Appalachian Trail from Georgia to Maine.",
+      "image": "images/appli.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 4,
+      "title": "Torres del Paine",
+      "description": "Iconic Patagonian landscapes with dramatic peaks.",
+      "location": "Chile",
+      "image": "images/tor.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 5,
+      "title": "Mount Kilimanjaro",
+      "description": "Africa's highest peak and a challenging trek.",
+      "location": "Tanzania",
+      "image": "images/kili.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 6,
+      "title": "Inca Trail to Machu Picchu",
+      "description": "Ancient trail through the Andes to Machu Picchu.",
+      "location": "Peru",
+      "image": "images/inc.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 7,
+      "title": "Milford Track",
+      "description": "World-renowned trek through New Zealand's Fiordland.",
+      "location": "New Zealand",
+      "image": "images/milford.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 8,
+      "title": "Grand Canyon Rim-to-Rim",
+      "description": "Epic journey across one of the world's natural wonders.",
+      "location": "Arizona, USA",
+      "image": "images/gran.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 9,
+      "title": "Everest Base Camp Trek",
+      "description": "Bucket-list trek to the base of the world's tallest mountain.",
+      "location": "Nepal",
+      "image": "images/ever.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 10,
+      "title": "Laugavegur Trail",
+      "description": "Colorful mountains and geothermal springs in Iceland.",
+      "location": "Iceland",
+      "image": "images/lau.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 11,
+      "title": "West Coast Trail",
+      "description": "Challenging coastal hike with breathtaking views.",
+      "location": "British Columbia, Canada",
+      "image": "images/wes.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 12,
+      "title": "Annapurna Circuit",
+      "description": "Scenic trek around the Annapurna massif.",
+      "location": "Nepal",
+      "image": "images/anna.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 13,
+      "title": "Zion Narrows",
+      "description": "Unique slot canyon hike through the Virgin River.",
+      "location": "Utah, USA",
+      "image": "images/zio.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 14,
+      "title": "Mount Fuji",
+      "description": "Sacred mountain with beautiful sunrise views.",
+      "location": "Japan",
+      "image": "images/fuji.webp",
+      "category": "Hiking"
+    },
+    {
+      "id": 15,
+      "title": "Dolomites Alta Via 1",
+      "description": "Classic trek through Italy's stunning Dolomites.",
+      "location": "Italy",
+      "image": "images/dolo.webp",
+      "category": "Hiking"
+    }
+  ]
+}

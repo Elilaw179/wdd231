@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+    name="description" 
+    content="Discover the best hiking trails, travel tips, and adventure guides around the world. 
+    Explore expert recommendations, packing lists, and travel inspiration for adventure seekers."
+     >
+    <meta name="author" content="Elisha Sunday">
+      <!-- Open Graph Meta Tags for Social Sharing -->
+      <meta property="og:title" content="Adventure Travel Blog - Hiking Guides & Travel Tips">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="images/social-preview.jpg">
+      <meta property="og:url" content="https://elilaw179.github.io/wdd231/">
+      <meta property="og:description" content="Discover the best hiking trails, travel tips, and adventure guides. Get expert recommendations, packing lists, and travel inspiration for your next adventure.">
+      <meta property="og:site_name" content="Adventure Travel Blog">
+
+    <title>Contact Us | Adventure Travel Blog</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/attributions.css">
+    <link rel="stylesheet" href="styles/media-querry.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <!-- Use id="menu-btn" on the button -->
+        <button id="menu-btn"> 
+            <i class="fa-solid fa-list"></i>
+        </button>
+           
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guides.html">Hiking Guides</a></li>
+                <li><a href="tips.html">Travel Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Get in Touch</h2>
+        <p>Have questions or need more information? Reach out to us using the form below, and we’ll get back to you as soon as possible.</p>
+    </section>
+
+    <section class="contact-form-section">
+        <h3>Contact Form</h3>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Full Name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email Address" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Your Message Here..." required></textarea>
+            </div>
+    
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    
+       <!-- Toast Notification -->
+<div id="toast" class="toast">
+    <span class="toast-icon">✅</span>
+    <span class="toast-message">Thank you! Your message has been sent successfully.</span>
+</div>
+
+    </section>
+    
+
+    <footer>
+        <p> Adventure Travel Blog | <a href="attributions.html">Attributions</a></p>
+        <p id="year"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/index.js" defer></script>
+</body>
+</html>
