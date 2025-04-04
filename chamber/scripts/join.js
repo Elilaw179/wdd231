@@ -22,6 +22,7 @@ function closeModal(id) {
     }
 }
 
+
 // Display submitted form data on the Thank You page
 document.addEventListener("DOMContentLoaded", function () {
     const formDataContainer = document.getElementById("form-data");
@@ -32,3 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+
+
+

@@ -1,17 +1,5 @@
 
 
-// Fetch member data and render
-// async function fetchMembers() {
-//   try {
-//     const response = await fetch('data/members.json'); // Fetch JSON data
-//     if (!response.ok) throw new Error("Failed to fetch member data");
-//     const members = await response.json();
-//     renderMembers(members);
-//   } catch (error) {
-//     console.error("Error fetching members:", error);
-//   }
-// }
-
 
 
 
@@ -88,4 +76,5 @@ async function fetchMembers() {
   fetchMembers();
   updateFooter();
   
-    
+   
+

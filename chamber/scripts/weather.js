@@ -6,8 +6,6 @@ const weatherApiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city
 
 
 
-
-
 async function fetchWeather() {
   const weatherContainer = document.querySelector('.c-weather-p');
   const forecastContainer = document.querySelector('.f-weather');

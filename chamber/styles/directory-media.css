@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .event-container {
     display: block;
     gap: 11rem;
@@ -24,5 +24,74 @@
   }
   #toggleView{
     display: none;
+  }
+}
+
+
+
+ */
+
+
+
+
+
+
+ @media (max-width: 640px) {
+  .event-container {
+    display: block;
+    gap: 11rem;
+  }
+
+  .nav-container {
+    margin: 0;
+  }
+
+  nav a {
+    display: none; /* Hide nav links by default */
+  }
+
+  section img {
+    height: 12rem;
+  }
+
+  .menu {
+    display: block; /* Show the hamburger icon */
+  }
+
+  .cir-icon i {
+    margin-top: 0;
+  }
+
+  .footer-container {
+    display: block;
+    height: 100% !important;
+  }
+
+  #toggleView {
+    display: none;
+  }
+
+  /* Show the navigation links when the menu is clicked */
+  .nav-links.open a {
+    display: block; /* Show links when 'open' class is added */
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+  }
+
+  .nav-links {
+    display: none; /* Keep navigation links hidden by default */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav-links.open {
+    display: flex; /* Show the navigation links when 'open' class is added */
   }
 }

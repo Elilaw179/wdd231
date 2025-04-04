@@ -22,3 +22,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // ✅ Now store the visit AFTER displaying the message!
     localStorage.setItem("lastVisit", now);
 });
+
+
+
+
+
+
